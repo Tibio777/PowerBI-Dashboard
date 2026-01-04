@@ -105,11 +105,18 @@ PowerBI-Dashboard/
 │   └── Energy_Consumption_Report.pdf
 └── README.md
 
+### Ukážky dashboardu:
+
+![Celková spotreba podľa regiónov](images/total_consumption_by_region.png)
+![Dni s vysokou spotrebou](images/high_usage_days_by_region.png)
+![Trend spotreby](images/consumption_trend_by_region.png)
+
 
 Autor:
 
 
 Tibor Pukluš,M.Sc.
+
 
 
 
