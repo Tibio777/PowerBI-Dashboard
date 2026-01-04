@@ -90,31 +90,27 @@ Prehľadný pohľad na časový vývoj spotreby podľa regiónov
 
 Podpora rozhodovania na regionálnej úrovni
 
- Štruktúra projektu:’’’
-PowerBI-Dashboard/
-│
-├─ data/
-│   └─ energy_consumption.csv
-│
-├─ images/
-│   ├─ total_consumption_by_region.png
-│   ├─ high_usage_days_by_region.png
-│   └─ consumption_trend_by_region.png
-│
-├─ reports/
-│   └─ Energy_Consumption.pbix
-│
-├─ reports_pdf/
-│   └─ Energy_Consumption_Report.pdf
-│
-└─ README.md’’’
+ ### Štruktúra projektu:
 
+```text
+PowerBI-Dashboard/
+├── data/
+│   └── energy_consumption.csv
+├── images/
+│   ├── total_consumption_by_region.png
+│   ├── high_usage_days_by_region.png
+│   └── consumption_trend_by_region.png
+├── reports/
+│   ├── Energy_Consumption.pbix
+│   └── Energy_Consumption_Report.pdf
+└── README.md
 
 
 Autor:
 
 
 Tibor Pukluš,M.Sc.
+
 
 
 
