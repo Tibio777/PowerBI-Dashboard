@@ -1,1 +1,1 @@
-„Projekt je zameraný na regionálnu analýzu spotreby energie. Použil som clustered bar charty na porovnanie celkovej spotreby a počtu high usage dní podľa regiónov a line chart na sledovanie vývoja spotreby v čase pre jednotlivé regióny.“
+
