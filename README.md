@@ -1,4 +1,4 @@
-Spotreba energie podľa regiónov – Power BI Dashboard
+# Spotreba energie podľa regiónov – Power BI Dashboard
 
 Tento projekt prezentuje Power BI dashboard zameraný výhradne na regionálnu analýzu spotreby energie. Všetky vizualizácie porovnávajú spotrebu medzi regiónmi alebo zobrazujú vývoj spotreby v čase rozdelený podľa regiónov.
 
@@ -90,6 +90,12 @@ Prehľadný pohľad na časový vývoj spotreby podľa regiónov
 
 Podpora rozhodovania na regionálnej úrovni
 
+
+
+*Autor:* Tibor Pukluš, M.Sc.
+
+---
+
 ### Štruktúra projektu:
 
 ```text
@@ -98,16 +104,3 @@ PowerBI-Dashboard/
 ├── images/
 ├── reports/
 └── README.md
-Vysvetlenie projektu:
-
-„Projekt je zameraný na regionálnu analýzu spotreby energie. Použil som clustered bar charty na porovnanie celkovej spotreby a počtu high usage dní podľa regiónov a line chart na sledovanie vývoja spotreby v čase pre jednotlivé regióny.“
-
-Autor:
-
-Tibor Pukluš,M.Sc.### Štruktúra projektu:
-
-### Ukážky dashboardu:
-
-![Celková spotreba podľa regiónov](images/total_consumption_by_region.png)
-![Dni s vysokou spotrebou](images/high_usage_days_by_region.png)
-![Trend spotreby](images/consumption_trend_by_region.png)
