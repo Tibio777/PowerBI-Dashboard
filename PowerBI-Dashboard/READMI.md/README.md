@@ -90,8 +90,8 @@ Prehľadný pohľad na časový vývoj spotreby podľa regiónov
 
 Podpora rozhodovania na regionálnej úrovni
 
- Štruktúra projektu
-PowerBI-Dashboard/
+ Štruktúra projektu:
+PowerBI-Dashboard:
 │
 ├─ data/
 │   └─ energy_consumption.csv
@@ -115,3 +115,4 @@ Autor:
 
 
 Tibor Pukluš,M.Sc.
+
