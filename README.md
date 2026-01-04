@@ -90,20 +90,14 @@ Prehľadný pohľad na časový vývoj spotreby podľa regiónov
 
 Podpora rozhodovania na regionálnej úrovni
 
-Štruktúra projektu:
+### Štruktúra projektu:
+
 ```text
 PowerBI-Dashboard/
 ├── data/
-│   └── energy_consumption.csv
 ├── images/
-│   ├── total_consumption_by_region.png
-│   ├── high_usage_days_by_region.png
-│   └── consumption_trend_by_region.png
 ├── reports/
-│   ├── Energy_Consumption.pbix
-│   └── Energy_Consumption_Report.pdf
 └── README.md
-
 Vysvetlenie projektu:
 
 „Projekt je zameraný na regionálnu analýzu spotreby energie. Použil som clustered bar charty na porovnanie celkovej spotreby a počtu high usage dní podľa regiónov a line chart na sledovanie vývoja spotreby v čase pre jednotlivé regióny.“
