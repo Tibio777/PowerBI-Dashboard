@@ -70,7 +70,7 @@ Line chart analyzuje vývoj spotreby energie v čase rozdelený podľa regiónov
 PowerBI-Dashboard/
 │
 ├── scripts/
-│   └── generate_energy_data.py   👈 tvoj .py
+│   └── generate_energy_data.py   
 ├── data/
 │   └── energy_data.csv
 ├── reports/
