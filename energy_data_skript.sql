@@ -1,0 +1,171 @@
+CREATE TABLE energy_data (
+    region TEXT,
+    date TEXT,
+    consumption INTEGER,
+    high_usage BOOLEAN
+);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-01',93,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-01',225,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-01',111,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-01',200,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-01',137,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-02',192,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-02',269,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-02',186,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-02',265,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-02',114,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-03',169,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-03',225,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-03',111,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-03',255,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-03',185,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-04',106,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-04',112,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-04',258,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-04',81,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-04',149,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-05',268,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-05',94,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-05',215,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-05',72,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-05',281,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-06',252,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-06',183,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-06',55,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-06',221,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-06',282,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-07',228,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-07',115,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-07',106,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-07',171,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-07',192,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-08',250,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-08',287,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-08',142,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-08',95,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-08',52,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-09',99,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-09',289,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-09',113,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-09',74,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-09',208,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-10',79,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-10',100,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-10',202,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-10',101,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-10',97,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-11',110,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-11',109,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-11',294,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-11',246,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-11',91,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-12',219,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-12',89,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-12',197,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-12',202,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-12',246,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-13',129,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-13',99,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-13',198,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-13',160,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-13',273,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-14',108,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-14',53,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-14',135,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-14',89,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-14',261,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-15',287,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-15',274,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-15',235,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-15',77,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-15',59,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-16',54,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-16',118,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-16',72,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-16',152,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-16',59,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-17',127,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-17',234,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-17',154,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-17',295,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-17',88,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-18',96,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-18',286,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-18',147,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-18',192,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-18',187,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-19',186,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-19',238,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-19',191,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-19',196,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-19',103,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-20',80,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-20',282,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-20',162,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-20',253,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-20',202,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-21',248,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-21',186,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-21',191,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-21',187,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-21',179,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-22',103,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-22',68,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-22',157,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-22',96,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-22',204,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-23',130,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-23',165,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-23',287,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-23',121,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-23',244,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-24',158,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-24',193,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-24',181,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-24',53,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-24',103,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-25',120,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-25',268,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-25',194,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-25',237,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-25',205,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-26',184,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-26',87,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-26',189,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-26',280,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-26',73,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-27',161,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-27',152,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-27',58,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-27',136,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-27',283,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-28',211,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-28',98,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-28',141,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-28',193,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-28',79,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-29',230,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-29',139,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-29',67,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-29',225,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-29',156,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Bratislava','2025-12-30',183,0);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Košice','2025-12-30',223,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Prešov','2025-12-30',295,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Nitra','2025-12-30',286,1);
+INSERT INTO energy_data (region, date, consumption, high_usage) VALUES ('Trnava','2025-12-30',190,0);
+
+select * from energy_data;
+-- Celková spotreba
+SELECT SUM(consumption) AS total_consumption FROM energy_data;
+
+-- Spotreba podľa regiónov
+SELECT region, SUM(consumption) AS total_consumption
+FROM energy_data
+GROUP BY region;
+
+-- Počet dní s vysokou spotrebou
+SELECT region, COUNT(*) AS high_usage_days
+FROM energy_data
+WHERE high_usage = 1
+GROUP BY region;
